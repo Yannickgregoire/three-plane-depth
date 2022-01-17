@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+.source {
+    position: absolute;
+    display: none;
+}
+
+video {
+    position: absolute;
+    height: 20% !important;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.gradient {
+    position: absolute;
+    background: linear-gradient(0deg, magenta 0%, yellow 100%);
+}
